@@ -10,7 +10,7 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: '3dc271e3-c8c0-4c50-9aac-802252d75325'
+  dockerRegistryServiceConnection: '1ff906c7-9574-4058-a11e-c4b476f91fa0'
   imageRepository: 'backend'
   containerRegistry: 'adventureworks.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/material/WebServer.dockerfile'
